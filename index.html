@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a11y Navigation Test | Callum King</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+</head>
+<body class="page-wrapper">
+  <header role="banner" class="header">
+    <nav class="header-main-navigation" role="navigation" aria-label="main navigation">
+      <ul>
+        <li class="header-main-navigation-item">
+          <a class="header-main-navigation-link" href="#" aria-current="page">Home</a>
+         </li>
+        <li class="header-main-navigation-item">
+          <a class="header-main-navigation-link" href="#">About</a>
+        </li>
+        <li class="header-main-navigation-item header-main-navigation-item--dropdown">
+          <button class="header-main-navigation-link header-main-navigation-toggle" type="button" aria-haspopup="true" aria-expanded="false">The Team</button>
+          <ul class="header-main-navigation-dropdown-menu" aria-labelledby="a-dropdown-toggle">
+            <li><a href="#">Design Team</a></li>
+            <li><a href="#">Dev Team</a></li>
+          </ul>
+         </li>
+        <li class="header-main-navigation-item">
+          <a class="header-main-navigation-link" href="#">Projects</a>
+         </li>
+        <li class="header-main-navigation-item">
+          <a class="header-main-navigation-link" href="#">Locations</a>
+        </li>
+        <li class="header-main-navigation-item">
+          <a class="header-main-navigation-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main" role="main">
+    
+  </main>
+</body>
+
+</html>
